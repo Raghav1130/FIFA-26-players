@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'TuskerGrotesk';
+  src: url('/TuskerGrotesk-6700Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html,
+body,
+#root {
+  background-color: #000000 !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Font utility */
+.font-tusker {
+  font-family: 'TuskerGrotesk', Impact, sans-serif;
+}
